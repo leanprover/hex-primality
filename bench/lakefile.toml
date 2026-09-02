@@ -1,0 +1,32 @@
+name = "hex-primality-bench"
+defaultTargets = [
+  "hexprimality_bench",
+  "hexprimality_policy_probe",
+  "hexprimality_fuel_probe",
+]
+
+leanOptions = [
+  { name = "doc.verso", value = true },
+  { name = "doc.verso.suggestions", value = false },
+]
+
+[[require]]
+name = "HexPrimality"
+path = ".."
+
+[[require]]
+name = "lean-bench"
+git = "https://github.com/kim-em/lean-bench.git"
+rev = "fa30c2763cf523f3ac8e46dc3a1dad0845a40098"
+
+[[lean_exe]]
+name = "hexprimality_bench"
+root = "HexPrimality.Bench"
+
+[[lean_exe]]
+name = "hexprimality_policy_probe"
+root = "HexPrimality.PolicyProbe"
+
+[[lean_exe]]
+name = "hexprimality_fuel_probe"
+root = "HexPrimality.FuelProbe"

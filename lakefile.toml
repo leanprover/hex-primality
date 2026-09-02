@@ -1,0 +1,20 @@
+name = "hex-primality"
+defaultTargets = ["HexPrimality"]
+
+leanOptions = [
+  { name = "doc.verso", value = true },
+  { name = "doc.verso.suggestions", value = false },
+]
+
+[[require]]
+name = "HexBasic"
+git = "https://github.com/leanprover/hex-basic.git"
+rev = "2d7f55d190cc2df9c9bf55437f344e65fbddc7c0"
+
+[[require]]
+name = "HexArith"
+git = "https://github.com/leanprover/hex-arith.git"
+rev = "d294600d228db1988856da19e12860c53c4d076c"
+
+[[lean_lib]]
+name = "HexPrimality"

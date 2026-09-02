@@ -19,6 +19,10 @@ name = "lean-bench"
 git = "https://github.com/kim-em/lean-bench.git"
 rev = "master"
 
+[[lean_lib]]
+name = "HexPrimalityBenchSupport"
+globs = ["HexPrimalityBench.Inputs"]
+
 [[lean_exe]]
 name = "hexprimality_bench"
 root = "HexPrimality.Bench"

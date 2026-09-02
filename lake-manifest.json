@@ -1,26 +1,33 @@
-{"version": "1.2.0",
- "packagesDir": ".lake/packages",
- "packages":
- [{"url": "https://github.com/leanprover/hex-arith.git",
-   "type": "git",
-   "subDir": null,
-   "scope": "",
-   "rev": "d294600d228db1988856da19e12860c53c4d076c",
-   "name": "HexArith",
-   "manifestFile": "lake-manifest.json",
-   "inputRev": "d294600d228db1988856da19e12860c53c4d076c",
-   "inherited": false,
-   "configFile": "lakefile.lean"},
-  {"url": "https://github.com/leanprover/hex-basic.git",
-   "type": "git",
-   "subDir": null,
-   "scope": "",
-   "rev": "2d7f55d190cc2df9c9bf55437f344e65fbddc7c0",
-   "name": "HexBasic",
-   "manifestFile": "lake-manifest.json",
-   "inputRev": "2d7f55d190cc2df9c9bf55437f344e65fbddc7c0",
-   "inherited": false,
-   "configFile": "lakefile.toml"}],
- "name": "«hex-primality»",
- "lakeDir": ".lake",
- "fixedToolchain": false}
+{
+  "version": "1.2.0",
+  "packagesDir": ".lake/packages",
+  "packages": [
+    {
+      "url": "https://github.com/leanprover/hex-arith.git",
+      "type": "git",
+      "subDir": null,
+      "scope": "",
+      "rev": "d294600d228db1988856da19e12860c53c4d076c",
+      "name": "HexArith",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "d294600d228db1988856da19e12860c53c4d076c",
+      "inherited": false,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover/hex-basic.git",
+      "type": "git",
+      "subDir": null,
+      "scope": "",
+      "rev": "2d7f55d190cc2df9c9bf55437f344e65fbddc7c0",
+      "name": "HexBasic",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "2d7f55d190cc2df9c9bf55437f344e65fbddc7c0",
+      "inherited": false,
+      "configFile": "lakefile.toml"
+    }
+  ],
+  "name": "\u00abhex-primality\u00bb",
+  "lakeDir": ".lake",
+  "fixedToolchain": false
+}

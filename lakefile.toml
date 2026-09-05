@@ -9,12 +9,12 @@ leanOptions = [
 [[require]]
 name = "HexBasic"
 git = "https://github.com/leanprover/hex-basic.git"
-rev = "2d7f55d190cc2df9c9bf55437f344e65fbddc7c0"
+rev = "6ad58796dca6bae4936003412816e4e844055558"
 
 [[require]]
 name = "HexArith"
 git = "https://github.com/leanprover/hex-arith.git"
-rev = "d294600d228db1988856da19e12860c53c4d076c"
+rev = "f6ea40210366e9d53f77439df7961d0bc5b1d02f"
 
 [[lean_lib]]
 name = "HexPrimality"

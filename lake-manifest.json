@@ -10,7 +10,7 @@
       "rev": "28ee623fae982665bc46301eaa50057c1ead224a",
       "name": "HexArith",
       "manifestFile": "lake-manifest.json",
-      "inputRev": "v0.4.0",
+      "inputRev": "v0.5.0",
       "inherited": false,
       "configFile": "lakefile.lean"
     },
@@ -22,7 +22,7 @@
       "rev": "38d0794d2a3dae4ca080b40e0694d212cc357f33",
       "name": "HexBasic",
       "manifestFile": "lake-manifest.json",
-      "inputRev": "v0.4.0",
+      "inputRev": "v0.5.0",
       "inherited": false,
       "configFile": "lakefile.toml"
     }
